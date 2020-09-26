@@ -18,7 +18,7 @@
   </li>
   {#if (parts.parts.length < 2)}
   <li>
-    <a href="/posts/en/category/postname">Since [...parts] are spread this can be drilled down to capture more <code>params</code></a>
+    <a href="./posts/en/category/postname">Since [...parts] are spread this can be drilled down to capture more <code>params</code></a>
   </li>
   {/if}
   <li>Refer <a href="https://sapper.svelte.dev/docs/#Pages">https://sapper.svelte.dev/docs/#Pages</a></li>
