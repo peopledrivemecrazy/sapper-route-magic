@@ -1,12 +1,13 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "sapper-route-magic",
+  "description": "sapper-route-magic",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
-    "start": "node __sapper__/build"
+    "start": "node __sapper__/build",
+    "gh-publish":"sapper export --basepath sapper-route-magic"
   },
   "dependencies": {
     "compression": "^1.7.1",
